@@ -1,0 +1,240 @@
+body {
+  background-color: black;
+}
+
+/* navbar  */
+.navbar {
+  background-color: black;
+}
+
+.navbar .navbar-brand {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.navbar .navbar-brand img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+
+.collapse .navbar-nav .nav-item {
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.collapse .navbar-nav .nav-item a {
+  color: gray;
+}
+
+.collapse .navbar-nav .nav-item a:hover {
+  color: white;
+  transition: 0.3s;
+}
+
+.collapse form .fab {
+  font-size: 20px;
+}
+
+.collapse form .fab:hover {
+  color: lightgray;
+  transition: 0.3 ease-in-out;
+  cursor: pointer;
+}
+
+/* section-one  */
+
+.section-one {
+  background-color: black;
+  height: 80vh;
+}
+
+.container-one .section-one-row .section-one-col1 p {
+  color: gray;
+  font-size: 20px;
+}
+
+.container-one .section-one-row .section-one-col1 button {
+  background-color: #27a776;
+  padding: 10px 40px;
+  border-radius: 5px;
+}
+
+.container-one .section-one-row .section-one-col1 button a {
+  text-decoration: none;
+  color: white;
+}
+
+.container-one .section-one-row .section-one-col1 button:hover {
+  background-color: #4c9177;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+/* section-two gallary-sec */
+
+.gallary-sec {
+  background-color: black;
+}
+
+.gallary-sec .gallary-container .gallary-row .gallary-col .img-fluid {
+  border-radius: 10px;
+}
+
+/* .gallary-footer */
+
+.gallary-footer {
+  background-color: black;
+}
+
+.footer-col {
+  color: #cccccc;
+}
+
+.footer-col p span {
+  color: #27a776;
+}
+
+/* about detail-sec  */
+
+.detail-sec .detail-container .detail-row .detail-col-img img {
+  height: 90%;
+}
+
+.detail-sec .detail-container .detail-row .detail-col h3 {
+  color: #27a776;
+  font-weight: 700;
+}
+
+.detail-sec .detail-container .detail-row .detail-col p .fa-solid {
+  color: #27a776;
+}
+
+.detail-sec .detail-container .detail-row .detail-col p em {
+  font-size: 20px;
+  color: #cccccc;
+}
+
+.detail-sec .detail-container .detail-row .detail-col .detail-p {
+  color: #cccccc;
+}
+
+/* services-sec  */
+
+.services-sec .s-card-container .s-card-row .s-card-col {
+  background-color: #161718;
+}
+
+.services-sec .s-card-container .s-card-row .s-card-col .fa-solid {
+  background-color: #27a776;
+  padding: 15px;
+  border-radius: 50%;
+  color: white;
+}
+
+/* testamonial  */
+
+.card {
+  border-radius: 0.7rem;
+}
+
+/* pricing-sec */
+
+.pricing-sec .p-container .main {
+  gap: 5rem;
+}
+
+.pricing-sec .p-container .main .card-one {
+  border-bottom: 1px dashed white !important;
+  width: 45%;
+}
+
+.pricing-sec .p-container .main .card-one h5 {
+  color: #cccccc;
+}
+
+/* contact-sec  */
+
+.icon-row .icon-col .fa-solid {
+  background-color: #161718;
+  padding: 10px;
+  border-radius: 50%;
+  align-items: center;
+  color: #27a776;
+}
+
+.icon-row .icon-col .fa-solid:hover {
+  color: white;
+  background-color: #27a776;
+  cursor: pointer;
+}
+
+.get-in-touch {
+  max-width: 800px;
+  margin: 50px auto;
+  position: relative;
+}
+.get-in-touch .title {
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 3.2em;
+  line-height: 48px;
+  padding-bottom: 48px;
+  color:white;
+
+}
+
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
+}
+.contact-form .input-text {
+  display: block;
+  width: 100%;
+  height: 36px;
+  border-width: 0 0 2px 0;
+  border-color: #5543ca;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+.contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+  transform: translateY(-24px);
+}
+.contact-form .label {
+  position: absolute;
+  left: 20px;
+  bottom: 11px;
+  font-size: 18px;
+  line-height: 26px;
+  font-weight: 400;
+  color: #5543ca;
+  cursor: text;
+  transition: -webkit-transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out;
+  transition: transform 0.2s ease-in-out, -webkit-transform 0.2s ease-in-out;
+}
+.contact-form .submit-btn {
+  display: inline-block;
+  background-color: #000;
+background-color: #27a776;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  width: 200px;
+  cursor: pointer;
+}
+
+.contact-form .submit-btn:hover{
+    background-color: #4c9177;
+}
